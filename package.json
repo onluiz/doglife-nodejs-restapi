@@ -1,0 +1,42 @@
+{
+  "name": "doglife-nodejs-restapi",
+  "version": "1.0.0",
+  "description": "A API for doglife-react project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onluiz/doglife-nodejs-restapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onluiz/doglife-nodejs-restapi/issues"
+  },
+  "homepage": "https://github.com/onluiz/doglife-nodejs-restapi#README",
+  "keywords": [
+    "template restAPI nodejs"
+  ],
+  "author": "https://github.com/onluiz",
+  "license": "ISC",
+  "engines": {
+    "node": "6.6.0"
+  },
+  "dependencies": {
+    "bcrypt": "1.0.2",
+    "body-parser": "1.17.2",
+    "cors": "^2.8.4",
+    "express": "4.15.3",
+    "jsonwebtoken": "7.4.3",
+    "knex": "0.12.0",
+    "mocha": "3.5.0",
+    "mongoose": "4.11.6",
+    "passport": "0.4.0",
+    "passport-jwt": "3.0.0",
+    "pg": "7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
