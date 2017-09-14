@@ -1,6 +1,10 @@
+## doglife-nodejs-restapi
+
+doglife-react: https://github.com/onluiz/doglife-react
+
 nodejs
 express
-postgressql + knex OU mongodb
+mongodb + mongoose
 testes mocha
 passport + JWT (Json Web Token)
-criptografia bccrypt
+bccrypt

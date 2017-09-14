@@ -16,6 +16,5 @@ module.exports = function (app) {
 
     require('../routes/login')(app);
     require('../routes/user')(app);
-    require('../routes/task')(app);
-    require('../routes/ticket')(app);
+    require('../routes/dog')(app);
 };
