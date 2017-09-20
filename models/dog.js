@@ -7,7 +7,6 @@ var dogSchema = mongoose.Schema({
     },
     nickname: {
         type: String,
-        required: 'Kindly enter the nickname of your dog'
     },
     birthdate: {
         type: Date,

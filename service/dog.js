@@ -4,7 +4,7 @@ Dog = mongoose.model('Dog');
 exports.listAll = function(req, res) {
     Dog
         .find({})
-        .sort("-date")
+        .sort("-created_date")
         .exec(function(err, dog) {
             if (err)
                 res.send(err);
