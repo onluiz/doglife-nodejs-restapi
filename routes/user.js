@@ -1,14 +1,14 @@
 module.exports = function (app) {
 
-    var userController = require('../service/user');
+    var user = require('../service/user');
 
     app.route('/users')
-        .get(userController.listAll)
-        .post(userController.create);
+        .get(user.listAll)
+        .post(user.create);
 
 
     app.route('/users/:userId')
-        .get(userController.findById)
-        .put(userController.update)
-        .delete(userController.delete);
+        .get(user.findById)
+        .put(user.update)
+        .delete(user.delete);
 };

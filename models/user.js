@@ -5,7 +5,7 @@ var userSchema = mongoose.Schema({
         type: String,
         required: 'Campo nome é obrigatório'
     },
-    userName: {
+    username: {
         type: String,
         required: 'Campo usuário é obrigatório'
     },
