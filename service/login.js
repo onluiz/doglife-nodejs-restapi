@@ -4,6 +4,8 @@ exports.auth = function (req, res) {
         User = require('../models/user'),
         bcrypt = require('../config/bcrypt');
 
+    console.log('req.body.name', req.body.name)
+
     User.findOne({name: req.body.name}, function (err, user) {
         if (err) throw err;
         if(user) {
